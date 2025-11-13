@@ -41,7 +41,7 @@ while True:
         # VALIDASI INPUT WAKTU
         while True:
             try:
-                waktu = int(input("Waktu reservasi: "))
+                waktu =input("Waktu reservasi (misal 19:00) : ")
                 break
             except ValueError:
                 print("❌ Input tidak valid masukkan angka saja.\n")
